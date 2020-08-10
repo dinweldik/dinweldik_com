@@ -1,0 +1,94 @@
+<html>
+
+<head>
+    <title>dinweldik</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="./lib/dinweldik.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/98.css" />
+    <link rel="stylesheet" href="./res/98_docs.css">
+    <script src="index.js"></script>
+</head>
+
+<body ontouchstart>
+    <div class="container">
+        <a href="index.html"><img src="/lib/dinweldik.png" min-width="32" alt="[manubia]"></a>
+        <hr>
+        <div class="container" style="margin: 32px">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="window manubia">
+                        <div class="title-bar">
+                            <div class="title-bar-text">manubia - rare fashion</div>
+                            <div class="title-bar-controls">
+                                <button aria-label="Minimize"></button>
+                                <button aria-label="Maximize"></button>
+                                <button aria-label="Close"
+                                    onclick="hide(document.getElementsByClassName('manubia')[0])"></button>
+                            </div>
+                        </div>
+                        <div class="window-body container">
+                            <p style="text-align: center;"><img src="/lib/manubia.gif" min-width="32" alt="[manubia]">
+                            </p>
+                            <section class="field-row" style="justify-content: flex-end">
+                                <button><a href="https://manubia.xyz">webshop</a></button>
+                                <button><a href="https://manubia.xyz/pages/rare">rare app</a></button>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="window fivetwo">
+                        <div class="title-bar">
+                            <div class="title-bar-text">fivetwo - second brain</div>
+                            <div class="title-bar-controls">
+                                <button aria-label="Minimize"></button>
+                                <button aria-label="Maximize"></button>
+                                <button aria-label="Close"
+                                    onclick="hide(document.getElementsByClassName('fivetwo')[0])"></button>
+                            </div>
+                        </div>
+                        <div class="window-body container">
+                            <p style="text-align: center;"><img src="./lib/fivetwo.png" height="215" alt="[52]"></p>
+                            <section class="field-row" style="justify-content: flex-end">
+                                <button><a href="https://fivetwo.app">fivetwo</a></button>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+                <!--                 <div class="col-sm anissa">
+            <div class="window">
+                <div class="title-bar">
+                    <div class="title-bar-text">anissa - make your business smarter</div>
+                    <div class="title-bar-controls">
+                        <button aria-label="Minimize"></button>
+                        <button aria-label="Maximize"></button>
+                        <button aria-label="Close"></button>
+                    </div>
+                </div>
+                <div class="window-body">
+                    <p>There's so much room for activities!</p>
+
+                </div>
+            </div>
+        </div> -->
+            </div>
+        </div>
+        <div w3-include-html="footer.html"></div>
+        <script>
+            includeHTML();
+        </script>
+    </div>
+</body>
+
+</html>
